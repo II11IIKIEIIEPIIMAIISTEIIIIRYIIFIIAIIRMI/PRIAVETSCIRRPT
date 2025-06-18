@@ -1127,9 +1127,9 @@ while task.wait() do
 if not game.Workspace:FindFirstChild("ÅTycoon"..game.Players.LocalPlayer.Name) then
 TycoonGodStatus:Set("GOD STATUS: no tycoon has been Found")
 elseif game.Workspace:FindFirstChild("ÅTycoon"..game.Players.LocalPlayer.Name) then
-if game.Workspace["ÅTycoon"..game.Players.LocalPlayer.Name].Info.Part.SurfaceGui.Frame10.Frame.Requirement.TextColor3 = Color3.fromRGB(255, 0, 0) then
+if game.Workspace["ÅTycoon"..game.Players.LocalPlayer.Name].Info.Part.SurfaceGui.Frame10.Frame.Requirement.TextColor3 == Color3.fromRGB(255, 0, 0) then
 TycoonPoints:Set("GOD STATUS: Not Upgraded")
-elseif game.Workspace["ÅTycoon"..game.Players.LocalPlayer.Name].Info.Part.SurfaceGui.Frame10.Frame.Requirement.TextColor3 = Color3.fromRGB(0, 255, 0) then
+elseif game.Workspace["ÅTycoon"..game.Players.LocalPlayer.Name].Info.Part.SurfaceGui.Frame10.Frame.Requirement.TextColor3 == Color3.fromRGB(0, 255, 0) then
 TycoonPoints:Set("GOD STATUS: Upgraded")
 end
 end
@@ -2303,9 +2303,9 @@ while task.wait() do
 if not game.Workspace:FindFirstChild("ÅTycoon"..game.Players.LocalPlayer.Name) then
 TycoonGodStatus:Set("GOD STATUS: no tycoon has been Found")
 elseif game.Workspace:FindFirstChild("ÅTycoon"..game.Players.LocalPlayer.Name) then
-if game.Workspace["ÅTycoon"..game.Players.LocalPlayer.Name].Info.Part.SurfaceGui.Frame10.Frame.Requirement.TextColor3 = Color3.fromRGB(255, 0, 0) then
+if game.Workspace["ÅTycoon"..game.Players.LocalPlayer.Name].Info.Part.SurfaceGui.Frame10.Frame.Requirement.TextColor3 == Color3.fromRGB(255, 0, 0) then
 TycoonPoints:Set("GOD STATUS: Not Upgraded")
-elseif game.Workspace["ÅTycoon"..game.Players.LocalPlayer.Name].Info.Part.SurfaceGui.Frame10.Frame.Requirement.TextColor3 = Color3.fromRGB(0, 255, 0) then
+elseif game.Workspace["ÅTycoon"..game.Players.LocalPlayer.Name].Info.Part.SurfaceGui.Frame10.Frame.Requirement.TextColor3 == Color3.fromRGB(0, 255, 0) then
 TycoonPoints:Set("GOD STATUS: Upgraded")
 end
 end
